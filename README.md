@@ -30,21 +30,21 @@ A React-based real-time collaborative whiteboard application that allows multipl
    git clone https://github.com/your-username/collaborative-whiteboard.git
    cd collaborative-whiteboard
 
-Install the dependencies:
+2. Install the dependencies:
 
-bash
+```bash
 
 npm install
 
-Start the development server:
+3. Start the development server:
 
-bash
+```bash
 
 npm start
 
-Start the backend server (if applicable):
+4. Start the backend server (if applicable):
 
-bash
+```bash
 
 cd server
 npm install
@@ -52,23 +52,3 @@ npm start
 
 Open your browser and navigate to http://localhost:3000.
 
-# Implementation Details
-
-## 1. Setting Up Real-Time WebSocket Connection
-
-WebSocket connections are established using libraries like Socket.IO or the native WebSocket API. The WebSocket connection is initialized in a React component using useEffect to handle real-time communication.
-
-## 2. Drawing Functionality on HTML5 Canvas
-
-Drawing functionality is implemented on an HTML5 canvas using React refs and event listeners for mouse and touch events. The Canvas component manages the drawing context and state.
-
-## 3. Synchronizing Canvas State
-
-Canvas state is synchronized across users by broadcasting drawing data over WebSocket. On receiving data, each client updates its canvas accordingly.
-
-## 4. Handling Active Users
-
-Active users are displayed using a simple list managed by the WebSocket server. The server tracks connected clients and broadcasts updates to all users.
-## 5. Scalability and Performance
-
-To ensure scalability and performance, the backend server is optimized for handling concurrent WebSocket connections using clustering techniques or load balancing.
