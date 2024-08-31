@@ -2,7 +2,7 @@
 
 #### `README.md` for **collaborative-whiteboard** Repository
 
-```markdown
+
 # Real-Time Collaborative Whiteboard
 
 A React-based real-time collaborative whiteboard application that allows multiple users to draw, edit, and interact simultaneously. The application uses WebSockets for real-time communication and state synchronization across users.
