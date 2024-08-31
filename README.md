@@ -1,4 +1,4 @@
-# **2. Real-Time Collaborative Whiteboard**
+# **Real-Time Collaborative Whiteboard**
 
 #### `README.md` for **collaborative-whiteboard** Repository
 
