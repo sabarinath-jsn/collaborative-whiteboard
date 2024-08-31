@@ -32,23 +32,23 @@ A React-based real-time collaborative whiteboard application that allows multipl
 
 2. Install the dependencies:
 
-```bash
+   ```bash
 
-npm install
+   npm install
 
 3. Start the development server:
 
-```bash
+   ```bash
 
-npm start
+   npm start
 
 4. Start the backend server (if applicable):
 
-```bash
+   ```bash
 
-cd server
-npm install
-npm start
+   cd server
+   npm install
+   npm start
 
-Open your browser and navigate to http://localhost:3000.
+5. Open your browser and navigate to http://localhost:3000.
 
